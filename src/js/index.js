@@ -4,9 +4,11 @@ import { render } from 'react-dom';
 
 //import routes from './routes';
 import App from './components/App';
+//import Payments from './testthis';
 
 // const App = () => (
 //   <h1> Hello World</h1>
 // );
 
+//render(<Payments />, document.getElementById('app'));
 render(<App />, document.getElementById('app'));
